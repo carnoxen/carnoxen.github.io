@@ -1,0 +1,4 @@
+- name: index
+  url: /
+- name: about
+  url: /about/
