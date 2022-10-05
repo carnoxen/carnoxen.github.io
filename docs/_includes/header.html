@@ -3,7 +3,7 @@
         <ul>
             {% for link in site.data.nav-links %}
             <li>
-                <a href="{{ link.url }}" class="{% if page.url == link.url %}em{% endif %}">{{ link.name }}</a>
+                <a href="{{ link.url }}" class="{% if page.id == link.url %}em{% endif %}">{{ link.name }}</a>
             </li>
             {% endfor %}
         </ul>
