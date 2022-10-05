@@ -1,4 +1,4 @@
 - name: index
   url: /
 - name: about
-  url: /about.html
+  url: /about
