@@ -27,6 +27,7 @@ header h1 {
 header nav ul {
     display: flex;
     overflow-x: auto;
+    white-space: nowrap;
 }
 
 header nav ul li {
