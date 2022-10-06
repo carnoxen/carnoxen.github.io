@@ -1,9 +1,14 @@
 <header>
+    <h1>///////</h1>
     <nav>
         <ul>
             {% for link in site.data.nav-links %}
             <li>
-                <a href="{{ link.url }}" class="{% if page.id == link.url %}em{% endif %}">{{ link.name }}</a>
+                {% if page.url == link.url %}
+                <a href="{{ link.url }}" class="here">{{ link.name }}</a>
+                {% else %}
+                <a href="{{ link.url }}">{{ link.name }}</a>
+                {% endif %}
             </li>
             {% endfor %}
         </ul>
