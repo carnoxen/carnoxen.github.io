@@ -1,6 +1,6 @@
 :root {
-    background: repeating-linear-gradient(to bottom, rgb(45, 45, 45) 0 2px, rgb(90, 90, 90) 2px 4px),
-        radial-gradient(transparent 0 90%, rgb(45, 45, 45) 110%);
+    background: radial-gradient(transparent 0 90%, rgb(45, 45, 45) 110%), 
+    repeating-linear-gradient(to bottom, rgb(45, 45, 45) 0 2px, rgb(90, 90, 90) 2px 4px);
     color: rgb(0, 150, 0);
     font-family: monospace;
     width: 100vw;
@@ -27,6 +27,11 @@ header nav ul li {
 header nav ul li a {
     text-align: center;
     text-decoration: none;
-    padding-block: 0.25em;
+    padding-block: 1em;
     padding-inline: 3em;
+    color: inherit;
+}
+
+main>* {
+    margin-block: 1em;
 }
