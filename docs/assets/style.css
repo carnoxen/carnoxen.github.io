@@ -1,7 +1,6 @@
 :root {
     background: radial-gradient(transparent 0 10%, rgb(45, 45, 45) 110%), 
     repeating-linear-gradient(to bottom, rgb(45, 45, 45) 0 2px, rgb(90, 90, 90) 2px 4px);
-    color: rgb(0, 150, 0);
     font-family: monospace;
     width: 100vw;
     height: 100vh;
@@ -10,6 +9,7 @@
 * {
     margin: 0;
     padding: 0;
+    color: rgb(0, 150, 0);
 }
 
 .here {
@@ -38,7 +38,6 @@ header nav ul li a {
     padding-block: 1rem;
     padding-inline: 3rem;
     display: block;
-    color: inherit;
 }
 
 main>* {
