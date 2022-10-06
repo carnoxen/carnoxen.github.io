@@ -12,8 +12,16 @@
     padding: 0;
 }
 
+.here {
+    font-weight: bold;
+}
+
 body>*{
-    margin: 2em;
+    margin: 2rem;
+}
+
+header h1 {
+    margin-block: 1rem;
 }
 
 header nav ul {
@@ -27,8 +35,9 @@ header nav ul li {
 header nav ul li a {
     text-align: center;
     text-decoration: none;
-    padding-block: 1em;
-    padding-inline: 3em;
+    padding-block: 1rem;
+    padding-inline: 3rem;
+    display: block;
     color: inherit;
 }
 
