@@ -37,8 +37,7 @@ header nav ul li {
 header nav ul li a {
     text-align: center;
     text-decoration: none;
-    padding-block: 1rem;
-    padding-inline: 3rem;
+    padding-inline: 2rem;
     display: block;
 }
 
