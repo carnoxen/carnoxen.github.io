@@ -5,9 +5,9 @@
             {% for link in site.data.nav-links %}
             <li>
                 {% if page.url == link.url %}
-                <a href="{{ link.url }}" class="here">{{ link.name }}</a>
+                <a href="{{ link.url }}" class="here">{{ link.key }}</a>
                 {% else %}
-                <a href="{{ link.url }}">{{ link.name }}</a>
+                <a href="{{ link.url }}">{{ link.key }}</a>
                 {% endif %}
             </li>
             {% endfor %}

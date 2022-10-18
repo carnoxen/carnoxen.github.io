@@ -1,6 +1,6 @@
-- name: index
+- key: index
   url: /
-- name: about
+- key: about
   url: /about.html
-- name: all-posts
+- key: all-posts
   url: /all-posts.html
