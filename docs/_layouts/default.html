@@ -14,7 +14,7 @@
         {{ content }}
     </main>
     <footer>
-        <p>"{{ page.name }}", {{ page.content | strip | newline_to_br | split: '<br />' | size }}L {{ page.content | size }}B</p>
+        <p>"{{ page.name }}", {{ page.content | strip | newline_to_br | split: '<br />' | size }}L {{ page.content | strip | size }}B</p>
     </footer>
 </body>
 </html>
