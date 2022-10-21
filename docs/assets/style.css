@@ -20,6 +20,10 @@ body>*{
     margin: 2rem;
 }
 
+hr {
+    border: 1px solid;
+}
+
 header h1 {
     margin-block: 1rem;
 }
