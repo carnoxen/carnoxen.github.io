@@ -1,6 +1,7 @@
 :root {
     background: radial-gradient(transparent 0 10%, rgb(45, 45, 45) 90%), 
     repeating-linear-gradient(to bottom, rgb(45, 45, 45) 0 2px, rgb(90, 90, 90) 2px 4px);
+    background-attachment: fixed;
     font-family: monospace;
     width: 100vw;
     height: 100vh;
@@ -22,6 +23,7 @@ body>*{
 
 hr {
     border: 1px solid;
+    padding: none;
 }
 
 header h1 {
